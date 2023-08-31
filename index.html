@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
-  <title>Star Wars: RebellionHelper</title>
+  <title>Star Wars: Rebellion Map</title>
   <meta content="Mapa de ayuda para el juego de mesa Star Wars: Rebellion. Usa este mapa para controlar los sistemas lealea al Imperio o a la Rebelión, o los que están subyugados. Muestra las conlas de construcción actuales para ambos jugadores. Cambia a la vista de sondas para hacer el seguimiento de las sondas enviadas." name="description">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="content/css/main.min.css">
   <link rel="stylesheet" href="content/css/lightsaber.min.css">
   <link rel="stylesheet" href="content/css/svg.css">
+  <link rel="stylesheet" href="content/css/tooltip.css">
 </head>
 <body>
   <div id="flippable">
@@ -5567,6 +5568,11 @@
               </g>
             </g>
             <g id="Coruscant">
+              <defs>
+                <pattern id="PL_Coruscant" patternUnits="userSpaceOnUse" width="150" height="150" x="55" y="-10">
+                  <image href="content/images/planets/Coruscant.png" x="0" y="0" width="150" height="150"/>
+                </pattern>
+              </defs>
               <circle id="Planet" class="cls-8" cx="1030.68" cy="966.68" r="64.53"></circle>
               <g>
                 <path class="cls-9 background"
@@ -5591,9 +5597,101 @@
             </g>
             <g id="Planets">
               <defs>
-                <pattern id="Moncala" patternUnits="userSpaceOnUse" width="150" height="150" y="50">
-                  <image href="content/images/Moncala.jpg" x="0" y="0" width="150" height="150"/>
+                <pattern id="PL_Moncala" patternUnits="userSpaceOnUse" width="150" height="150" x="0" y="48">
+                  <image href="content/images/planets/Mon_Calamari.png" x="0" y="0" width="150" height="150"/>
                 </pattern>
+                <pattern id="PL_Felucia" patternUnits="userSpaceOnUse" width="125" height="125" x="20" y="-10">
+                  <image href="content/images/planets/Felucia.png" x="0" y="0" width="125" height="125"/>
+                </pattern>
+                <pattern id="PL_Saleucami" patternUnits="userSpaceOnUse" width="90" height="90" x="45" y="77">
+                  <image href="content/images/planets/Saleucami.png" x="0" y="0" width="90" height="90"/>
+                </pattern>
+                <pattern id="PL_Bespin" patternUnits="userSpaceOnUse" width="110" height="110" x="60" y="0">
+                  <image href="content/images/planets/Bespin.png" x="0" y="0" width="110" height="110"/>
+                </pattern>
+                <pattern id="PL_Alderaan" patternUnits="userSpaceOnUse" width="125" height="125" x="0" y="20">
+                  <image href="content/images/planets/Alderaan.png" x="0" y="0" width="125" height="125"/>
+                </pattern>
+                <pattern id="PL_Cato" patternUnits="userSpaceOnUse" width="90" height="90" x="40" y="65">
+                  <image href="content/images/planets/Cato_Neimoidia.png" x="0" y="0" width="90" height="90"/>
+                </pattern>
+                <pattern id="PL_Corellia" patternUnits="userSpaceOnUse" width="160" height="160" x="-25" y="40">
+                  <image href="content/images/planets/Corellia.png" x="0" y="0" width="160" height="160"/>
+                </pattern>
+                <pattern id="PL_Dantooine" patternUnits="userSpaceOnUse" width="100" height="100" x="-25" y="30">
+                  <image href="content/images/planets/Dantooine.png" x="0" y="0" width="100" height="100"/>
+                </pattern>
+                <pattern id="PL_Dathomir" patternUnits="userSpaceOnUse" width="100" height="100" x="-22" y="-15">
+                  <image href="content/images/planets/Dathomir.png" x="0" y="0" width="100" height="100"/>
+                </pattern>
+                <pattern id="PL_Endor" patternUnits="userSpaceOnUse" width="90" height="90" x="45" y="40">
+                  <image href="content/images/planets/Endor.png" x="0" y="0" width="90" height="90"/>
+                </pattern>
+                <pattern id="PL_Kashyyyk" patternUnits="userSpaceOnUse" width="155" height="155" x="-18" y="35">
+                  <image href="content/images/planets/Kashyyyk.png" x="0" y="0" width="155" height="155"/>
+                </pattern>
+                <pattern id="PL_Malastare" patternUnits="userSpaceOnUse" width="130" height="130" x="10" y="82">
+                  <image href="content/images/planets/Malastare.png" x="0" y="0" width="130" height="130"/>
+                </pattern>
+                <pattern id="PL_Mandalore" patternUnits="userSpaceOnUse" width="135" height="135" x="43" y="65">
+                  <image href="content/images/planets/Mandalore.png" x="0" y="0" width="135" height="135"/>
+                </pattern>
+                <pattern id="PL_Mustafar" patternUnits="userSpaceOnUse" width="105" height="105" x="-33" y="20">
+                  <image href="content/images/planets/Mustafar.png" x="0" y="0" width="105" height="105"/>
+                </pattern>
+                <pattern id="PL_Mygeeto" patternUnits="userSpaceOnUse" width="150" height="150" x="39" y="7">
+                  <image href="content/images/planets/Mygeeto.png" x="0" y="0" width="150" height="150"/>
+                </pattern>
+                <pattern id="PL_Ordmantell" patternUnits="userSpaceOnUse" width="110" height="110" x="-35" y="70">
+                  <image href="content/images/planets/Ord_Mantell.png" x="0" y="0" width="110" height="110"/>
+                </pattern>
+                </pattern>
+                <pattern id="PL_Tatooine" patternUnits="userSpaceOnUse" width="90" height="90" x="50" y="50">
+                  <image href="content/images/planets/Tatooine.png" x="0" y="0" width="90" height="90"/>
+                </pattern>
+                <pattern id="PL_Yavin" patternUnits="userSpaceOnUse" width="120" height="120" x="-30" y="-10">
+                  <image href="content/images/planets/Yavin_2.png" x="0" y="0" width="120" height="120"/>
+                </pattern>
+                <pattern id="PL_Bothawui" patternUnits="userSpaceOnUse" width="110" height="110" x="-25" y="-2">
+                  <image href="content/images/planets/Bothawui.png" x="0" y="0" width="110" height="110"/>
+                </pattern>
+                <pattern id="PL_Kessel" patternUnits="userSpaceOnUse" width="115" height="115" x="-15" y="55">
+                  <image href="content/images/planets/Kessel.png" x="0" y="0" width="115" height="115"/>
+                </pattern>
+                <pattern id="PL_Nalhutta" patternUnits="userSpaceOnUse" width="160" height="160" x="-43" y="40">
+                  <image href="content/images/planets/NalHutta.png" x="0" y="0" width="160" height="160"/>
+                </pattern>
+                <pattern id="PL_Rodia" patternUnits="userSpaceOnUse" width="120" height="120" x="-30" y="-31">
+                  <image href="content/images/planets/Rodia.png" x="0" y="0" width="120" height="120"/>
+                </pattern>
+                <pattern id="PL_Ryloth" patternUnits="userSpaceOnUse" width="100" height="100" x="-40" y="-50">
+                  <image href="content/images/planets/Ryloth.png" x="0" y="0" width="100" height="100"/>
+                </pattern>
+                <pattern id="PL_Geonosis" patternUnits="userSpaceOnUse" width="130" height="130" x="65" y="35">
+                  <image href="content/images/planets/Geonosis.png" x="0" y="0" width="130" height="130"/>
+                </pattern>
+                <pattern id="PL_Naboo" patternUnits="userSpaceOnUse" width="140" height="140" x="60" y="-45">
+                  <image href="content/images/planets/Naboo.png" x="0" y="0" width="140" height="140"/>
+                </pattern>
+                <pattern id="PL_Toydaria" patternUnits="userSpaceOnUse" width="140" height="140" x="20" y="0">
+                  <image href="content/images/planets/Toydaria.png" x="0" y="0" width="140" height="140"/>
+                </pattern>
+                <pattern id="PL_Utapau" patternUnits="userSpaceOnUse" width="140" height="140" x="45" y="-10">
+                  <image href="content/images/planets/Utapau.png" x="0" y="0" width="140" height="140"/>
+                </pattern>
+                <pattern id="PL_Dagobah" patternUnits="userSpaceOnUse" width="80" height="80" x="10" y="20">
+                  <image href="content/images/planets/Dagobah.png" x="0" y="0" width="80" height="80"/>
+                </pattern>
+                <pattern id="PL_Hoth" patternUnits="userSpaceOnUse" width="80" height="80" x="45" y="0">
+                  <image href="content/images/planets/Hoth.png" x="0" y="0" width="80" height="80"/>
+                </pattern>
+                <pattern id="PL_Ilum" patternUnits="userSpaceOnUse" width="100" height="100" x="50" y="30">
+                  <image href="content/images/planets/Ilum.png" x="0" y="0" width="100" height="100"/>
+                </pattern>
+                <pattern id="PL_Sullust" patternUnits="userSpaceOnUse" width="120" height="120" x="35" y="45">
+                  <image href="content/images/planets/Sullust.png" x="0" y="0" width="120" height="120"/>
+                </pattern>
+
               </defs>
               <circle class="cls-21" cx="833.94" cy="577.93" r="69.5"></circle> <!--Kashyyyk-->
               <circle class="cls-22" cx="1113.92" cy="538.41" r="56.26"></circle> <!--Malastare-->
@@ -5611,7 +5709,7 @@
               <circle class="cls-34" cx="155.89" cy="409.42" r="46.33"></circle> <!--Yavin -->
               <circle class="cls-35" cx="334.93" cy="300.57" r="56.26"></circle> <!--Felucia -->
               <circle class="cls-36" cx="540.99" cy="300.57" r="44.68"></circle> <!--Saleucami -->
-              <circle class="cls-37" cx="614.55" cy="112.19" r="53.5"></circle> <!--Kessel -->
+              <circle class="cls-37" cx="614.55" cy="112.19" r="53.5"></circle>  <!--Kessel -->
               <circle class="cls-38" cx="224.85" cy="122.29" r="70.05"></circle> <!--Mon Calamari-->
               <circle class="cls-39" cx="125.61" cy="680.61" r="47.99"></circle> <!--Dantooine -->
               <circle class="cls-40" cx="264.08" cy="831.38" r="68.94"></circle> <!--Mygeeto -->
@@ -5625,7 +5723,8 @@
               <circle class="cls-48" cx="1795.89" cy="339.87" r="62.88"></circle> <!--Utapau -->
               <circle class="cls-49" cx="1710.54" cy="99.04" r="43.02"></circle> <!--Ryloth -->
               <circle class="cls-50" cx="1354.05" cy="95.21" r="34.2"></circle> <!--Tatooine -->
-              <g>
+              <circle class="cls-51" cx="1564.87" cy="227.87" r="59.05"></circle> <!--Geonosis -->
+              <!--g> <! Geonosis >
                 <ellipse class="cls-51" cx="1564.87" cy="227.87" rx="59.05" ry="59.76"
                   transform="translate(1247.26 1780.08) rotate(-86.84)"></ellipse>
                 <g class="cls-52">
@@ -5637,7 +5736,7 @@
                   <path class="cls-55"
                     d="M1667.18,256.12c-4.44,15.84-53.83,16.08-110.31.55s-98.68-41-94.24-56.8,53.83-16.08,110.31-.55S1671.62,240.29,1667.18,256.12Z"
                     transform="translate(-3.76 2.29)"></path>
-                </g>
+                </g-->
               </g>
             </g>
             <g id="mainmenu" class="mainbutton">
