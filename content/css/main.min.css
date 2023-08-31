@@ -31,10 +31,14 @@ body footer,body>div,body>div * {
 
 body {
     margin: 0;
-    background-image: -webkit-radial-gradient(circle farthest-corner at 50% 100%,rgba(187,82,0,.5),rgba(0,46,143,.5)),url(../images/hyades.jpg);
+    /*background-image: -webkit-radial-gradient(circle farthest-corner at 50% 100%,rgba(187,82,0,.5),rgba(0,46,143,.5)),url(../images/hyades.jpg);
     background-image: radial-gradient(circle farthest-corner at 50% 100%,rgba(187,82,0,.5),rgba(0,46,143,.5)),url(../images/hyades.jpg);
+    background-size: auto,1000px*/
+
+    background-image: -webkit-radial-gradient(circle farthest-corner at 50% 100%,rgba(187,82,0,.5),rgba(141,141,141,.5)),url(../images/DS9.jpg);
+    background-image: radial-gradient(circle farthest-corner at 50% 100%,rgba(187,82,0,.5),rgba(141,141,141,.5)),url(../images/DS9.jpg);
     background-position: 0 0,50% 50%;
-    background-size: auto,1000px
+    background-size: cover
 }
 
 body>div,body>div * {
