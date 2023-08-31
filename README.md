@@ -13,6 +13,6 @@ Tanto para Coruscant como la Base Rebelde solo se puede cambiar entre construcci
 
 En el menú de la Cola de Construcción puedes ver las colas de construcción actuales para ambos bandos. En dispotivos móviles pulsa en los iconos Rebelde o Imperial en las esquinas inferiores para acceder a este menú.
 
-Usa el botón de Droides Sonda</span> pàra cambiar entre las vistas de Construcción y Sondas. En en la vista de Sondas el jugador Imperial puede indicar los sistemas como "Explorados" pulsando sobre ellos. Para los sistemas lejanos, también se puede indicar "Tropas sobre el terreno cuando" haya unidades terrestres Imperiales presentes en dicho sistema.
+Usa el botón de Droides Sonda</span> para cambiar entre las vistas de Construcción y Sondas. En en la vista de Sondas el jugador Imperial puede indicar los sistemas como "Explorados" pulsando sobre ellos. Para los sistemas lejanos, también se puede indicar "Tropas sobre el terreno cuando" haya unidades terrestres Imperiales presentes en dicho sistema. Esta función es especialmente util para jugar en solitario y llevar un control de qué sistemas lejanos ha explorado el imperio mediante sondas y cuales lo han sido mediante tropas terrestres.
 
 Enlace a la app: https://hipher.github.io/RebellionMap/
